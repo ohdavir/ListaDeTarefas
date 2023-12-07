@@ -1,13 +1,32 @@
-HTML Lista de Tarefas:
+<!DOCTYPE html>
+<html lang="en">
 
-    <h2>Tarefas Pendentes</h2>
-    <ul id="tarefas">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <div>
+    <div class="container"></div>
+    <h1>Adicionar tarefas</h1>
+        <input type="text" id="camporesultado"> <button id="adicionar">Adicionar</button> <button id="finalizar">Finalizar Tudo</button>
+    </div>
+    <div>   
+        <h1>Tarefas pendentes:</h1>
+        <ul class="tarefas" id="ultarefa"></ul>
+    </div>
+    <div>
+    <hr>
+    <h1>Tarefas feitas:</h1>
+    <ul class="tarefas" id="ultarefacompleta">
+
     </ul>
-    <input type="text" name="descricao" id="descricao">
-    <br>
-    <input type="button" value="Adicionar" id="adicionar">
-    <br>
-    <h3>Tarefas Finalizadas</h3>
-    <ul id="finalizadas">
-    </ul>
-    <script type="text/javascript" src="script.js"></script>
+    <button id="limpar2">Apagar</button>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
