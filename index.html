@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,24 +9,30 @@
 </head>
 
 <body>
+    <div class="tudo">
+        <h1>LISTA DE TAREFAS</h1>
     <div>
-    <div class="container"></div>
-    <h1>Adicionar tarefas</h1>
-        <input type="text" id="camporesultado"> <button id="adicionar">Adicionar</button> <button id="finalizar">Finalizar Tudo</button>
+        <div class="container"></div>
+        <h1>Adicionar tarefas</h1>
+        <input type="text" id="camporesultado"> <button id="adicionar">Adicionar</button> 
     </div>
-    <div>   
+    <div id="listas" class="pendentes">
         <h1>Tarefas pendentes:</h1>
-        <ul class="tarefas" id="ultarefa"></ul>
-    </div>
-    <div>
-    <hr>
-    <h1>Tarefas feitas:</h1>
-    <ul class="tarefas" id="ultarefacompleta">
+        <ul class="tarefas" id="ultarefa">
 
-    </ul>
-    <button id="limpar2">Apagar</button>
+        </ul>
+        <button id="limpar">Apagar</button>
+        <button id="finalizar">Finalizar Tudo</button>
     </div>
-</div>
+    <div id="listas" class="completas">
+        <h1>Tarefas feitas:</h1>
+        <ul class="tarefas" id="ultarefacompleta">
+
+        </ul>
+        <button id="limpar2">Apagar</button>
+    </div>
+    </div>
 </body>
 <script src="script.js"></script>
+
 </html>

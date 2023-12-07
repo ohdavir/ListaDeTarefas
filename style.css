@@ -1,4 +1,53 @@
 body{
     background-color: black;
     color: whitesmoke;
+    text-align: center;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.tudo{
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;    
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#listas{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(86, 128, 86);
+    color: white;
+    height: 25px;
+    transition: 30ms ease-in;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 30ms ease-in;
+}
+#limpar, #limpar2{
+    background-color: rgb(179, 50, 41);
+    color: white;
+}
+.completas{
+    background-color: rgb(40, 61, 40);
+    color: white;
+
+}
+.pendentes{
+    background-color: rgb(85, 25, 21);
+    color: white;
+}
+ul{
+    text-align: left;
 }
