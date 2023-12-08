@@ -20,7 +20,7 @@ body{
 #listas{
     text-align: center;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 15px;
 }
 button{
@@ -30,6 +30,7 @@ button{
     color: white;
     height: 25px;
     transition: 30ms ease-in;
+    margin: 8px;
 }
 button:hover{
     transform: scale(1.05);
@@ -53,4 +54,6 @@ ul{
 }
 #video{
     display: none;
+    text-align: center;
+    flex-direction: column
 }
