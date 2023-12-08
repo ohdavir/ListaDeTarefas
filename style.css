@@ -6,7 +6,7 @@ body{
     margin-top: 5%;
     justify-content: center;
 }
-.tudo{
+#tudo{
     background-color: rgb(34, 34, 34);
     padding: 20px;
     width: 500px;
@@ -50,4 +50,7 @@ button:hover{
 }
 ul{
     text-align: left;
+}
+#video{
+    display: none;
 }
